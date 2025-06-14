@@ -1,0 +1,76 @@
+/* JoinRoom.css */
+
+
+
+.joinroom-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f3f4f6;
+}
+
+.joinroom-card {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.joinroom-card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #111827;
+  font-size: 24px;
+}
+
+.joinroom-card label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #374151;
+}
+
+.joinroom-card input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 20px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background-color: #f9fafb;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.joinroom-card input:focus {
+  outline: none;
+  border-color: #6366f1;
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2);
+}
+
+.joinroom-card button {
+  width: 100%;
+  padding: 12px;
+  background-color: #6366f1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.joinroom-card button:hover {
+  background-color: #4f46e5;
+}
+
+.error-message {
+  color: #dc2626;
+  margin-bottom: 16px;
+  text-align: center;
+  font-weight: 500;
+}
